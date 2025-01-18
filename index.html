@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="textIni"> <img src="assets/Logo.svg" alt=""></h1>
+    </header>
+    <div class="contenedorP">
+        <div>
+            <h5 style="text-shadow: 2px 2px 4px rgb(216, 29, 29); font-size: 30px;">Mis Productos</h5>
+            <div class="contenedor_Productos"></div>
+        </div>
+
+        <section>
+            <h5 style="text-shadow: 2px 2px 4px rgb(12, 34, 231); font-size: 30px;">Agregar Productos:</h5>
+            <form class="contenedor_Form">
+                <input data-name placeholder="nombre del pruducto..." type="text">
+                <input data-price placeholder="precio" type="text">
+                <input data-image placeholder="imagen" type="text">
+                <span data-mensage class="mensajeError"></span>
+                <div class="contenedor_buttons">
+                    <button type="submit" class="submitbott" id="button">Enviar productos</button>
+                    <button type="reset" class="resetbott" id="button"> Limpiar espacio</button>
+
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer class="footer-container">
+        <div>
+            <img src="./assets/Logo.svg" />
+        </div>
+        <p> Desarollado por Juan Camilo Vásquéz</p>
+        <small>Alura Latam 2024</small>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

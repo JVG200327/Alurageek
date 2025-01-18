@@ -1,0 +1,16 @@
+{
+  "productos": [
+    {
+      "id": "334e",
+      "nombre": "123",
+      "precio": "123",
+      "imagen": "https://pepeganga.vteximg.com.br/arquivos/ids/986840/101116470-1.png?v=638258072743370000?1736553600011"
+    },
+    {
+      "id": "a1cd",
+      "nombre": "12312414",
+      "precio": "123123",
+      "imagen": "https://pepeganga.vteximg.com.br/arquivos/ids/986840/101116470-1.png?v=638258072743370000?1736553600011"
+    }
+  ]
+}
